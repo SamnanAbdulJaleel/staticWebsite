@@ -1,0 +1,186 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(/home/freakz/Documents/html/html/images/pic.jpg);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-size: cover;
+    background-position: center;
+    z-index: -1; 
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    color: orangered;
+    justify-content: space-evenly;
+    gap: 150px;
+}
+
+.logo {
+    font-size: 55px;
+    font-weight: bold;
+}
+.image {
+    vertical-align: bottom;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 80px;
+    
+}
+
+li {
+    margin: 0 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header .search input {
+    padding: 14px;
+    background-color: rgb(56, 51, 51);
+    border: 1px solid black;
+    border-radius: 10px;
+    color: #fff;
+}
+.search-button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+main {
+    padding: 20px;
+}
+.para {
+    flex: 1;
+
+}
+
+.para h1 {
+    font-size: 90px;
+    margin-top: 170px;
+    margin-bottom: 10px;
+    width: 700px;
+    color: white;
+}
+
+.font {
+    font-size: 110px;
+    color: orangered;
+}
+.para p {
+    font-size: 25px;
+    color: rgb(168, 167, 165);
+    width: 840px;
+}
+
+
+.login h2 {
+    font-size: 33px;
+    margin: 10px auto;
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+    width: 77%;
+    margin-bottom: 30px;
+    
+}
+
+.login form input {
+    width: 75%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border-bottom: none;
+    border-right: none;
+    background-color: rgb(37, 37, 37);
+    margin: 10px auto;
+    color: #fff;
+}
+
+.login form button {
+    width: 80%;
+    padding: 12px;
+    background-color: orangered;
+    border-radius: 10px;
+    border-color: orangered;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.login, form {
+    flex: 1;
+    padding: 10px 0 0 ;
+    border-radius: 10px;
+}
+.login p {
+    color: whitesmoke;
+}
+.login {
+    text-align: center;
+    background-color: rgb(26, 25, 25);
+    margin: 130px 70px 0 450px;
+    padding: 10px;
+    border-radius: 70px;
+    border: 1px solid orangered;
+    border-left-color: #fff;
+    border-bottom-color: #fff;
+
+}
+span {
+    color: orangered;
+}
+
+.social a {
+    font-size: 30px;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding-left: 80px;
+}
+
+.join-us {
+    color: black;
+    background-color: orangered;
+    font-size: 30px;
+    margin-left: 80px;
+    text-align: center;
+    width: 10%;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
